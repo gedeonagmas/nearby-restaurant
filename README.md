@@ -19,8 +19,8 @@ Follow these steps after cloning or downloading the repository:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/gedeonagmas/nearby-restaurant.git
+cd nearby-restaurant
 ```
 
 ### 2. Set Up the Backend
@@ -102,6 +102,7 @@ The frontend will start at [http://localhost:3000].
 ### 5. Additional Commands
 
 - **Run Tests**: You can run tests for the server using:
+
   ```bash
   npm test
   ```
@@ -120,6 +121,7 @@ The frontend will start at [http://localhost:3000].
 ### 7. License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ```
 
 ### Notes
@@ -127,3 +129,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Replace `<repository-url>` and `<repository-name>` with your actual repository URL and name.
 - Adjust the example seed data in `seed.js` according to your data model.
 - Ensure the `prisma` directory and `seed.js` file are correctly set up in your project structure.
+```
